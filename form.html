@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+    <div id="border">
+        <form>
+
+            <center>
+                <h1> Student Registeration Form</h1>
+            </center>
+            <hr>
+            <div class="container">
+                <label> Firstname: </label>
+                <input type="text" placeholder="First Name" required />
+                <label> Lastname: </label>
+                <input type="text" placeholder="Last Name" required />
+                <label> Email: </label>
+                <input type="text" placeholder="xyz@gmai.com" required />
+
+
+                <label> Phone Number: </label>
+                <div class="number">
+                    <input type="text" id="code" value="+91" />
+                    <input type="text" id="phone" placeholder="Enter your Phone Number" required />
+                </div>
+
+
+                <label> Gender:</label>
+                <div class="gender">
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Male" name="Gender" />
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Female" name="Gender" />
+                </div>
+                <label>Address :</label>
+                <div class="address">
+                    <input type="text" placeholder="H.No." required />
+                    <input type="text" id="city" placeholder="City" required />
+                    <input type="text" placeholder="State" required />
+                </div>
+                <!-- <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>
+</textarea><br><br> -->
+                <button class="submit" type="submit">Login</button>
+                <button class="submit" type="submit">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

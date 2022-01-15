@@ -1,0 +1,66 @@
+
+its For All *****
+
+HEAD + TITLE + BODY
+HTML 
+DIV
+elements 
+Attributes
+CSS:internal css external css inline css
+diffrence betweeen Margin Padding
+table : All tag (table,thead,tr,td)
+alt attribute in image tag
+rel attribute in link tag 
+href in link tag
+
+
+Q: diffrence betweeen Margin Padding
+Margin is used to create space around elements and padding is used to create space around elements inside the border.
+
+Q: CSS:internal css external css inline css
+Internal or embedded ⁠— add <style> tag in the <head> section of HTML document
+External ⁠— link the HTML sheet to a separate  .css file
+Inline ⁠— apply CSS rules for specific elements.
+
+Q: Element
+An HTML element is defined by a start tag, some content, and an end tag.
+HTML Elements
+The HTML element is everything from the start tag to the end tag:
+<tagname>Content goes here...</tagname>
+
+Q: Attribute
+HTML attributes provide additional information about HTML elements.
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+Q: href in link tag
+href attribute, which indicates the link's destination.
+
+Q: img tag
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+
+Q table tag
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+
